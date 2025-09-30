@@ -1,0 +1,68 @@
+#spring:
+#  application:
+#    name: Journal App
+#
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://rc195131:LdG8Gh6USF7QtogP@cluster0.kl75bqb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+#      database: journaldb
+#      auto-index-creation: true
+#      # host: localhost
+#      # port: 27017
+#      # username: myjournaluser
+#      # password: mypassword
+#
+#server:
+#  port: 8080
+#  servlet:
+#    context-path: /journal
+#
+spring:
+  profiles:
+    active: dev
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: my-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+#Logging Levels
+#1.TRACE
+#2.DEBUG
+#3.INFO
+#4.WARN
+#5.ERROR
+
+#logging:
+#  level:
+#    com:
+#      edigest:
+#        journalApp: ERROR
+
+#logging:
+#  level:
+#    com:
+#      edigest:
+#        journalApp: DEBUG
+
+#Only If Error
+#logging:
+#  level:
+#    root: Error
+
+#For OFF
+#logging:
+#  level:
+#    root: OFF
+
+#logging:
+#  level:
+#    com:
+#      edigest:
+#        journalApp:
+#          service: OFF

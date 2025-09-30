@@ -1,0 +1,4 @@
+com\edigest\journalApp\JournalAppApplicationTests.class
+com\edigest\journalApp\service\UserArgumentsProvider.class
+com\edigest\journalApp\service\UserDetailServiceImplTest.class
+com\edigest\journalApp\service\UserServiceTests.class

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.edigest.journalApp.JournalAppApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 9.079 s - in com.edigest.journalApp.JournalAppApplicationTests

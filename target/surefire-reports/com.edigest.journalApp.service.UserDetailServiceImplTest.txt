@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.edigest.journalApp.service.UserDetailServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 3.746 s - in com.edigest.journalApp.service.UserDetailServiceImplTest
